@@ -1,4 +1,5 @@
 const express = require('express');
+<<<<<<< HEAD
 const checkListRouter = require('./src/routes/checklist');
 require('./config/database');
 
@@ -31,3 +32,6 @@ app.get('/json', (req, res) => {
     res.json({title: 'Tarefas X', done: true});
 });
  */
+=======
+
+>>>>>>> ece63f0aa6b353478187ccba5b16e1bc9298ba6a
